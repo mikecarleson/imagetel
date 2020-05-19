@@ -105,20 +105,21 @@ body {
   flex-direction: row;
   justify-content: space-around;
   flex-flow: wrap;
-  width: 100%;
+  width: 90%;
   height: auto;
   padding-bottom: 40px;
+  margin: auto;
 }
 
 .card {
-  float: left;
   width: 30%;
   height: auto;
   padding: 20px;
-  margin: 20px;
+  margin-bottom: 20px;
   align-content: center;
   box-shadow: 5px 10px 18px #888888;
   padding: 10px;
+  font-size: 0.8em;
 }
 .prod-pic {
   display: block;
@@ -213,6 +214,38 @@ body {
   }
 
 }
+@media screen and (max-width: 768px) {
+  .learn {
+    display: block;
+    width: 100%;
+  }
+  .jumbotron {
+    margin: 0;
+    width: 100vw;
+  }
+  .navbar {
+    width: 100vw;
+  }
+  .card {
+    width: 90%;
+  }
+  .bullet-points {
+    width: 100%;
+  }
+  .about {
+    width: 90%;
+  }
+  .pic1 {
+    margin: auto;
+  }
+  .pic2 {
+    width: 100%;
+    background-size: contain;
+    box-shadow: 0px 0px 0px transparent;
+  }
+
+}
+
 @media screen and (max-width: 480px) {
   .learn {
     display: block;
