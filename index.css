@@ -139,6 +139,7 @@ body {
   width: 10%;
   height: auto;
   align-content: center;
+  padding: 5px;
 }
 .logo-pic {
   display: block;
