@@ -121,6 +121,32 @@ body {
   padding: 10px;
   font-size: 0.8em;
 }
+.logos {
+  display: flex;
+  flex-direction: row;
+  flex-flow: wrap;
+  width: 90%;
+  height: auto;
+  padding: 40px;
+  margin: auto;
+  background-color: white;
+  border-radius: 0.5em;
+}
+
+.logo {
+  width: 10%;
+  height: auto;
+  align-content: center;
+}
+.logo-pic {
+  display: block;
+  height:50px;
+  width: 75px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
 .prod-pic {
   display: block;
   margin-left: auto;
@@ -226,6 +252,10 @@ body {
   .pic1 {
     margin: auto;
   }
+  .logo {
+    width: 20%;
+  }
+
 
 }
 @media screen and (max-width: 768px) {
@@ -261,8 +291,11 @@ body {
   }
   .carousel-slide {
     width: 90%;
-
   }
+  .logo {
+    width: 25%;
+  }
+  
 
 
 }
@@ -317,6 +350,10 @@ body {
   }
   .carousel-slide {
     width: 90%;
-
   }
+  .logo {
+    width: 25%;
+    padding: 5px 0;
+  }
+
 }
