@@ -232,7 +232,7 @@ body {
   .pic2 {
     width: 100%;
     background-size: contain;
-    box-shadow: none;
+    box-shadow: 0px 0px 0px transparent;
   }
   .about {
     width: 90%;
