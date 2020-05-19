@@ -1,0 +1,255 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: #f9f9f9 !important;
+}
+.navbar {
+  background: white;
+}
+.navbar-text {
+  color: brown !important;
+}
+.jumbotron {
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)),
+    url(/assets/tulsa.jpg);
+  width: 100%;
+  height: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 30px;
+
+  /* margin-bottom: 0 !important; */
+}
+.jt-container {
+  padding-left: 20px;
+  padding-right: 20px;
+  color: whitesmoke;
+  font: bold;
+  margin-bottom: 0 !important;
+}
+.phone {
+  margin: 0px;
+}
+.address {
+  color: yellow;
+}
+.pic1 {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6)),
+    url(/assets/voip.jpg);
+    width: 500px;
+    height: 350px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 0.5rem;
+    margin-right: 40px;
+  }
+.pic2 {
+  background: url(/assets/bhm.jpg);
+  /* width: 100%; */
+  width: 500px;
+  height: 232px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  border-radius: 0.5rem;
+}
+
+.learn {
+  width: 90%;
+  padding: 20px;
+  height: auto;
+  background: #f9f9f9;
+  display: flex;
+  flex-direction: row;
+  flex-flow: wrap;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+.bullet-points {
+  width: 40%;
+  padding: 20px;
+}
+
+.story {
+  width: 90%;
+  padding: 20px;
+  height: auto;
+  background: #f9f9f9;
+  display: flex;
+  flex-direction: row;
+  flex-flow: wrap;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  
+}
+
+.about {
+  width: 60%;
+  padding: 20px;
+  margin: 0 !important;
+}
+
+.cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-flow: wrap;
+  width: 100%;
+  height: auto;
+  padding-bottom: 40px;
+}
+
+.card {
+  float: left;
+  width: 30%;
+  height: auto;
+  padding: 20px;
+  margin: 20px;
+  align-content: center;
+  box-shadow: 5px 10px 18px #888888;
+  padding: 10px;
+}
+.prod-pic {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  padding: 20px;
+}
+.product-hdr {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  padding-top: 40px;
+}
+
+.map-container-6 {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+}
+.map-container-6 iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+.row {
+  margin: 0;
+  width: 100%;
+  justify-content: center;
+}
+.cont {
+  justify-content: center;
+}
+.section {
+  width: 90%;
+  background-color: #3d3d3d;
+  color: white;
+  margin-bottom: 20px;
+  margin: auto;
+  border-radius: 0.5em;
+}
+
+.map {
+  border-radius: 0.5rem;
+}
+
+.btn {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+.card-body {
+  margin: 0;
+}
+
+
+@media screen and (max-width: 1200px) {
+  .learn {
+    display: block;
+    width: 100%;
+  }
+  .jumbotron {
+    margin: 0;
+    width: 100vw;
+  }
+  .navbar {
+    width: 100vw;
+  }
+  .card {
+    width: 40%;
+  }
+  .bullet-points {
+    width: 100%;
+  }
+  .about {
+    width: 90%;
+  }
+  .pic1 {
+    margin: auto;
+  }
+
+}
+@media screen and (max-width: 480px) {
+  .learn {
+    display: block;
+    width: 100%;
+    margin: 0 !important;
+  }
+  .bullet-points {
+    width: 100%;
+    margin: auto;
+  }
+  .jumbotron {
+    margin: 0 !important;
+  }
+  .pic1 {
+    display: none;
+  }
+  .pic2 {
+    width: 100%;
+    background-size: contain;
+  }
+  .about {
+    width: 90%;
+  }
+  .story {
+    margin: auto;
+  }
+  .section {
+    text-align: left;
+    width: 90%;
+  }
+  .row {
+    margin: 0 !important;
+    width: 100%;
+  }
+  .map-col {
+    width: 100%;
+  }
+  .jt-container {
+    margin: 0 !important;
+  }
+  .about {
+    width: 100%;
+    padding: 0;
+  }
+  .card {
+    width: 90%;
+  }
+}
