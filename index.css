@@ -232,6 +232,7 @@ body {
   .pic2 {
     width: 100%;
     background-size: contain;
+    box-shadow: none;
   }
   .about {
     width: 90%;
