@@ -217,7 +217,7 @@ body {
   margin: 0;
 }
 .carousel-slide {
-  width: 70%;
+  width: 60%;
   height:auto;
   justify-content: center;
   margin: auto;
@@ -359,7 +359,9 @@ body {
   }
   .logo {
     width: 25%;
-    padding: 5px 0;
+    padding: 5px;
   }
-
+  .logos {
+    padding: 5px;
+  }
 }
